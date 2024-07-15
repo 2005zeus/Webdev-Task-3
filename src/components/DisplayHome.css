@@ -1,0 +1,13 @@
+.display-home{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.display-home>h2{
+    width: 100%;
+    padding: 20px;
+}

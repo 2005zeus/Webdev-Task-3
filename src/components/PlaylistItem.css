@@ -1,0 +1,31 @@
+.playlist-item{
+    width: 33%;
+    height: 100px;
+    padding: 15px 10px;
+
+    /* border-radius: 10px; */
+    box-sizing: border-box;
+
+    cursor: pointer;
+}
+
+.playlist-item > div{
+    height: 70px;
+
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    border-radius: 10px;
+    gap: 10px;
+
+    background-color: rgba(46, 46, 46, 0.479);
+}
+
+.playlist-item > div > img{
+    height: 70px;
+    border-radius: 10px;
+}
+
+.playlist-item > div > h3{
+    margin: 0;
+    align-self: center;
+}

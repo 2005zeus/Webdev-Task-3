@@ -1,0 +1,168 @@
+/* General container for friends section */
+.friends-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    z-index: 2;
+  }
+  
+  /* Header styling */
+  .friends-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .friends-header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .friends-header .search-bar {
+    position: relative;
+    width: 300px;
+  }
+  
+  .friends-header .search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  .friends-header .search-bar .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+  }
+  
+  /* Friends list styling */
+  .friends-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .friend-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .friend-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .friend-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .friend-item .friend-info {
+    flex-grow: 1;
+  }
+  
+  .friend-item .friend-info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .friend-item .friend-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Friend request styling */
+  .friend-requests {
+    margin-top: 20px;
+  }
+  
+  .friend-request-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .friend-request-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .friend-request-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .friend-request-item .request-info {
+    flex-grow: 1;
+  }
+  
+  .friend-request-item .request-info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .friend-request-item .request-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .friend-request-item .request-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .friend-request-item .request-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .friend-request-item .request-actions .accept-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .friend-request-item .request-actions .accept-button:hover {
+    background-color: #45a049;
+  }
+  
+  .friend-request-item .request-actions .decline-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .friend-request-item .request-actions .decline-button:hover {
+    background-color: #e53935;
+  }
+  
